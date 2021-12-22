@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hotel Paraíso</title>
+        <title>Alquiler Cabaña</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
         <link rel = "preconnect" href = "https://fonts.gstatic.com">
         <link href = "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"rel =" stylesheet ">
@@ -16,8 +16,8 @@
             <nav>
                 <ul>
                     <li> <a href="#">Inicio</a></li>
-                    <li> <a href="#">Contacto</a></li>
-                    <li> <a href="#">Ubicación</a></li>
+                    <li> <a href="#contacto">Contacto</a></li>
+                    <li> <a href="#info">Ubicación</a></li>
                     
                 </ul>
             </nav>
@@ -26,17 +26,18 @@
 <!--Background image-->
 
         <section class="hero">
-            <h1>Alquiler de Cabañas.</h1>
+            <h1 class="text-white">Cabaña para turistas</h1>
             <h3>Rama Caída- San Rafael Mendoza.</h3>
-            <a class="btn" href="#">Reservar</a>
+            <a class="btn" href="#contacto">Reservar</a>
         </section>
 
 
 <!--Conheça o Hotel-->
 
         <section class="conheca-o-hotel">
-            <h3>Casa de campo</h3>
-            <p>Donde encontrarás paz, tranquilidad, comodidad y conveniencia.</p>
+            <h3>Protocolo Covid 19</h3>
+            <p>Cumplimos los protocolos indicados. Te cuidamos, nos cuidamos. Adoptamos las medidas indicadas por el Protocolo COVID-19 para alojamientos turísticos, establecido por el Ministerio de Turismo de la Nación y Municpalidad de San Rafael, Mendoza.
+            </p>
             <hr>
             <ul class="grid">
                 <li class="small" style="background-image: url('img/itacare-01.jpg');"></li>
@@ -53,36 +54,38 @@
             </ul>
         </section>
 
-        <section class="caracteristicas">
-            <h3>Único hotel pé na areia de Itacaré</h3>
-            <p>implesmente um texto fictício da indústria de impressão e composição. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma galé do tipo e embaralhou para fazer um livro de amostra de tipos.</p>
+        <section class="caracteristicas" id="info">
+            <h3>DISFRUTA EL MOMENTO!</h3>
+            <p>Te esperamos en nuestro complejo de casi 2 hectáreas, rodeando de un entorno natural para que puedas descansar, desconectarte de la rutina y disfrutar de los paisajes de San Rafael, Mendoza. </p>
             <hr>
             <ul class="grid">
                 <li>
-                    <i class="fas fa-location-arrow"></i>
+                    <a href='https://goo.gl/maps/BCPg5NPiuERuezK68'>
+                    <i class="fas fa-map-marked-alt"></i>
+                    </a>
                     <h4>Localización</h4>
-                    <p>implesmente um texto fictício da indústria de impressão e composição. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma galé do tipo e embaralhou para fazer um livro de amostra de tipos. Ele sobreviveu não apenas cinco séculos, mas também ao salto para a composição</p>
+                    <p>Calle Arroyo N°801 Rama Caída, ubicada en un predio de 20000 m2, a 10 Km 15 minutos del Centro de San Rafael , un lugar muy tranquilo, rodeado de la naturaleza y cerca de todo. 
+                    </p>
 
                 </li>
 
                 <li>
-                    <i class="fas fa-gift"></i>
-                    <h4>Paquetes de ofertas</h4>
-                    <p>implesmente um texto fictício da indústria de impressão e composição. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma galé do tipo e embaralhou para fazer um livro de amostra de tipos. Ele sobreviveu não apenas cinco séculos, mas também ao salto para a composição</p>
-                    
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <h4>Disfrute de San Rafael</h4>
+                    <p>Es la segunda ciudad de la provincia, situada en una llanura pedregosa surcada por los ríos Atuel y Diamante, es un centro turístico de excelente infraestructura y desarrolo que cuenta con una importante y diversificada oferta de servicios.</p>                    
                 </li>
 
                 <li>
                     <i class="fas fa-home"></i>
                     <h4>Alojamiento</h4>
-                    <p>implesmente um texto fictício da indústria de impressão e composição. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma galé do tipo e embaralhou para fazer um livro de amostra de tipos. Ele sobreviveu não apenas cinco séculos, mas também ao salto para a composição</p>
+                    <p>Se ofrece ropa blanca, cocina equipada con heladera con freezer, vajilla completa, living comedor, TV Satelital, Wi Fi, habitación principal con cama matrimonial, parque, quincho, parrillas, horno, mesas y sillas de jardín, cochera, predio cercado.</p>
                     
                 </li>
             </ul>
         </section>
 
         <section class="newsletter">
-            <h3>Ubicación</h3>
+            <h3>Reservas</h3>
             <p>Calle Arroyo N°801 - Rama Caída.</p>
             <hr>
 
@@ -93,15 +96,14 @@
 
         </section>
 
-        <footer>
+        <footer id="contacto">
             <ul>
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href='https://api.whatsapp.com/send?phone=+5492604579164&text=Hola, estoy interesado en' target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                 <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
             </ul>
-            <p>Todos os direitos reservados - by Bruno Santiago</p>
+            <p>Todos los derechos reservados - 2022</p>
         </footer>
-
     </body>
 </html>
