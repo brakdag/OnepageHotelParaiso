@@ -40,7 +40,13 @@ header li:last-child{margin-right: 0%;}
 
 /*HERO*/
 
-.hero { background-image: url(../img/hero.jpg); background-size: cover; min-height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center;}   
+.hero { background-image: url(../img/hero.jpg); background-size: cover; min-height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center;
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}   
 .hero h1 {font-size: 3.2rem; color:transparent;margin-bottom: 15px;  -webkit-text-stroke: 2px white;}
 .hero h3 { font-size: 1.2rem;color:transarent; margin-bottom: 15px;  -webkit-text-stroke: 1px white;}
 .hero .btn { background-color: #fff; border-radius: 5px; color: #191c03; padding: 20px 50px; text-transform: uppercase;}
