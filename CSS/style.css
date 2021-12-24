@@ -96,7 +96,8 @@ footer p {color: #c3c63b;}
     width: 448px;
     height: 96px;
     background-position: -5px -5px;
-    zoom:.5;
+    margin: 10px;
+    zoom:.7;
 }
 
 .sprite-qr {
